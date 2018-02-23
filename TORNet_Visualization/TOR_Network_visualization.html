@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<!-- load D3js -->
+<script src="d3plus.v1.9.8/js/d3.js"></script>
+
+<!-- load D3plus after D3js -->
+<script src="d3plus.v1.9.8/js/d3plus.js"></script>
+
+<script type="text/javascript" src="Circuits.jsonp"></script>
+<script type="text/javascript" src= "jquery-3.1.1.min.js"></script>
+<!-- create container element for visualization -->
+<div id="viz" style="width: 100%; height: 100%"></div>
+
+<script>
+
+  var circuits = Circuits.C1F355C39114FEF16CB34258762D2C9BF94A857D.circuits;
+  var sample_data = [];
+  var positions = [];
+  var connections = [];
+  var x=10;
+  var y=20;
+  $.each(circuits,function(i, circuit){
+          keys = Object.keys(circuit);
+          
+          $.each(keys,function(i,key){
+               if(circuit.hasOwnProperty(key)){
+                  node = circuit[key];                
+                  node_info = {"nickname":node.nickname,"type":key,"ip":node.ip}
+                  console.log(node_info)
+                  sample_data.push(node_info);
+                  x= Math.floor(Math.random() * 100) + 10;
+                  y=Math.floor(Math.random() * 100) + 10;
+                  positions.push({"nickname":node.nickname, "x":x, "y":y});
+                  
+              }
+          });
+         
+          if(keys.indexOf('entry') >-1 && keys.indexOf('relay') >-1 && keys.indexOf('exit') >-1){
+              connections.push({"source":circuit['entry'].nickname,"target":circuit['relay'].nickname});
+              connections.push({"source":circuit['relay'].nickname,"target":circuit['exit'].nickname})
+          }
+  });
+
+ //console.log(sample_data);
+ //console.log(positions);
+ //console.log(connections);
+ 
+  // instantiate d3plus
+  var visualization = d3plus.viz()
+    .container("#viz")  // container DIV to hold the visualization
+    .type("network")    // visualization type
+    .data(sample_data)  // sample dataset to attach to nodes
+    .nodes(positions)   // x and y position of nodes
+    .edges(connections) // list of node connections
+    /*.size("size") */  // key to size the nodes
+    .id("nickname")     // key for which our data is unique on
+    .tooltip(["ip","type"])
+    .draw()             // finally, draw the visualization!
+</script>

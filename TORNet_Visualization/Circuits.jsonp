@@ -1,0 +1,186 @@
+Circuits= 
+{
+    "C1F355C39114FEF16CB34258762D2C9BF94A857D": {    
+        "circuits": {
+            "59": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                    
+                }, 
+                "exit": {
+                    "ip": "163.172.136.101", 
+                    "nickname": "TorHundred", 
+                    "fingerprint": "FBBB88FE31B18EA932B787F8BACC7DFBEDDD09D8"
+                }, 
+                "relay": {
+                    "ip": "138.201.211.234", 
+                    "nickname": "proton", 
+                    "fingerprint": "E9EC00499CEE206A28D3B35DF46943E5CD596EE4"
+                }
+            }, 
+            "58": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "197.231.221.211", 
+                    "nickname": "IPredator", 
+                    "fingerprint": "BC630CBBB518BE7E9F4E09712AB0269E9DC7D626"
+                }, 
+                "relay": {
+                    "ip": "178.62.86.206", 
+                    "nickname": "Crows", 
+                    "fingerprint": "74A55E12F6A9FD17165A356C00407F4D206E8368"
+                }
+            }, 
+            "55": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "69.30.215.94", 
+                    "nickname": "Omega4", 
+                    "fingerprint": "70D20AD2FBB1BCD92676CB11CD964DD3ECDE634E"
+                }, 
+                "relay": {
+                    "ip": "148.251.136.84", 
+                    "nickname": "vectorvitaletor", 
+                    "fingerprint": "8E990BD86D0EA4327759741C21A694D0FF69ED70"
+                }
+            }, 
+            "54": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "62.210.129.246", 
+                    "nickname": "MilesPrower", 
+                    "fingerprint": "79E169B25E4C7CE99584F6ED06F379478F23E2B8"
+                }, 
+                "relay": {
+                    "ip": "178.63.9.165", 
+                    "nickname": "Finisterre", 
+                    "fingerprint": "E3F98C86C9E01138DD8EA06B1E660A0CDB4B2782"
+                }
+            }, 
+            "57": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "5.196.65.173", 
+                    "nickname": "torisbetterthantv", 
+                    "fingerprint": "5BF14A81C3DAE557CE324925CF2A4F58BE618E67"
+                }, 
+                "relay": {
+                    "ip": "62.210.125.130", 
+                    "nickname": "bradburn", 
+                    "fingerprint": "169535CC4C75FF79C6D548D41720064EE4FE61D2"
+                }
+            }, 
+            "56": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "91.107.104.238", 
+                    "nickname": "Unnamed", 
+                    "fingerprint": "26B7A8B27118025D664CF4DA418E4A6AE8D1F117"
+                }, 
+                "relay": {
+                    "ip": "134.19.177.109", 
+                    "nickname": "nastja", 
+                    "fingerprint": "500FE4D6B529855A2F95A0CB34F2A10D5889E8C1"
+                }
+            }, 
+            "53": {
+                "entry": {
+                    "ip": "84.80.80.69", 
+                    "nickname": "Cloveri", 
+                    "fingerprint": "888933294902B310106CF68C012ECDD110114452"
+                }
+            }, 
+            "60": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "163.172.136.101", 
+                    "nickname": "TorHundred", 
+                    "fingerprint": "FBBB88FE31B18EA932B787F8BACC7DFBEDDD09D8"
+                }, 
+                "relay": {
+                    "ip": "86.59.119.83", 
+                    "nickname": "torrelay1ph3xat", 
+                    "fingerprint": "FC9AC8EA0160D88BCCFDE066940D7DD9FA45495B"
+                }
+            }, 
+            "61": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "5.39.83.27", 
+                    "nickname": "DontPanicItsOrganic", 
+                    "fingerprint": "1C173D4513B5BA66202E02CD4F61304FD4CC6C62"
+                }, 
+                "relay": {
+                    "ip": "134.119.36.135", 
+                    "nickname": "torpidsDEdomainf2", 
+                    "fingerprint": "763C9556602BD6207771A7A3D958091D44C43228"
+                }
+            }, 
+            "62": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "185.21.216.157", 
+                    "nickname": "x76slvferal2", 
+                    "fingerprint": "68CECB9ECDF5EFE8FF23C25B926D756FB346FD92"
+                }, 
+                "relay": {
+                    "ip": "138.201.83.171", 
+                    "nickname": "ToolspireRelay", 
+                    "fingerprint": "66CA5474346F35E375C4D4514C51A540545347EE"
+                }
+            }, 
+            "63": {
+                "entry": {
+                    "ip": "85.235.250.88", 
+                    "nickname": "TykRelay01", 
+                    "fingerprint": "72B2B12A3F60408BDBC98C6DF53988D3A0B3F0EE"
+                }, 
+                "exit": {
+                    "ip": "192.160.102.165", 
+                    "nickname": "cowcat", 
+                    "fingerprint": "C90CA3B7FE01A146B8268D56977DC4A2C024B9EA"
+                }, 
+                "relay": {
+                    "ip": "173.67.27.225", 
+                    "nickname": "nsaciabrb", 
+                    "fingerprint": "4C67964FC5CA913FAED3DADA3DF2032A2E797EAC"
+                }
+            }
+        }, 
+        "my_nickname": "Relay4Daiz"
+    }
+}
